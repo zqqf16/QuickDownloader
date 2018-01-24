@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510A11851FECB8910091CFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A11841FECB8910091CFE1 /* AppDelegate.swift */; };
+		510A11871FECB8910091CFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A11861FECB8910091CFE1 /* ViewController.swift */; };
+		510A11891FECB8910091CFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510A11881FECB8910091CFE1 /* Assets.xcassets */; };
+		510A118C1FECB8910091CFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510A118A1FECB8910091CFE1 /* Main.storyboard */; };
+		510A11981FECB8910091CFE1 /* QuickDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A11971FECB8910091CFE1 /* QuickDownloaderTests.swift */; };
+		510A11A51FECF3EF0091CFE1 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A11A41FECF3EF0091CFE1 /* StatusBarController.swift */; };
+		510A11B61FF2442C0091CFE1 /* Aria2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A11B51FF2442C0091CFE1 /* Aria2.swift */; };
+		510A11BA1FF398590091CFE1 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A11B91FF398590091CFE1 /* WindowController.swift */; };
+		510A11BC1FF39D370091CFE1 /* TitlebarAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A11BB1FF39D370091CFE1 /* TitlebarAccessoryViewController.swift */; };
+		511C50D41FFDDDE400BA25EB /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511C50D31FFDDDE400BA25EB /* Config.swift */; };
+		511C50D61FFF2F1E00BA25EB /* Prdfterence.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511C50D51FFF2F1E00BA25EB /* Prdfterence.storyboard */; };
+		511C50D91FFF593A00BA25EB /* GeneralSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511C50D71FFF593A00BA25EB /* GeneralSettingsViewController.swift */; };
+		513BDB411FF4EA1700FFAFF2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513BDB401FF4EA1700FFAFF2 /* Extensions.swift */; };
+		518FDF631FF3A53900455CA5 /* DownloadTaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518FDF621FF3A53900455CA5 /* DownloadTaskCellView.swift */; };
+		518FDF651FF3D4A500455CA5 /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518FDF641FF3D4A400455CA5 /* NSColor.swift */; };
+		518FDF671FF48D4A00455CA5 /* Aria2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518FDF661FF48D4A00455CA5 /* Aria2Model.swift */; };
+		518FDF691FF4BF0E00455CA5 /* Aria2TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518FDF681FF4BF0E00455CA5 /* Aria2TaskTests.swift */; };
+		519FE5E51FF5F6B4000A71B2 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519FE5E41FF5F6B4000A71B2 /* Automator.framework */; };
+		519FE5E71FF61563000A71B2 /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519FE5E61FF61563000A71B2 /* NewTaskViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		510A11941FECB8910091CFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510A11791FECB8910091CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510A11801FECB8910091CFE1;
+			remoteInfo = QuickDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		510A11811FECB8910091CFE1 /* QuickDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		510A11841FECB8910091CFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		510A11861FECB8910091CFE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		510A11881FECB8910091CFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		510A118B1FECB8910091CFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		510A118D1FECB8910091CFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510A118E1FECB8910091CFE1 /* QuickDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickDownloader.entitlements; sourceTree = "<group>"; };
+		510A11931FECB8910091CFE1 /* QuickDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		510A11971FECB8910091CFE1 /* QuickDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickDownloaderTests.swift; sourceTree = "<group>"; };
+		510A11991FECB8910091CFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510A11A41FECF3EF0091CFE1 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		510A11B51FF2442C0091CFE1 /* Aria2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aria2.swift; sourceTree = "<group>"; };
+		510A11B91FF398590091CFE1 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		510A11BB1FF39D370091CFE1 /* TitlebarAccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlebarAccessoryViewController.swift; sourceTree = "<group>"; };
+		511C50D31FFDDDE400BA25EB /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		511C50D51FFF2F1E00BA25EB /* Prdfterence.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Prdfterence.storyboard; sourceTree = "<group>"; };
+		511C50D71FFF593A00BA25EB /* GeneralSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsViewController.swift; sourceTree = "<group>"; };
+		513BDB401FF4EA1700FFAFF2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		518FDF621FF3A53900455CA5 /* DownloadTaskCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadTaskCellView.swift; sourceTree = "<group>"; };
+		518FDF641FF3D4A400455CA5 /* NSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
+		518FDF661FF48D4A00455CA5 /* Aria2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aria2Model.swift; sourceTree = "<group>"; };
+		518FDF681FF4BF0E00455CA5 /* Aria2TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aria2TaskTests.swift; sourceTree = "<group>"; };
+		519FE5E41FF5F6B4000A71B2 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		519FE5E61FF61563000A71B2 /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		510A117E1FECB8910091CFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519FE5E51FF5F6B4000A71B2 /* Automator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510A11901FECB8910091CFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		510A11781FECB8910091CFE1 = {
+			isa = PBXGroup;
+			children = (
+				510A11831FECB8910091CFE1 /* QuickDownloader */,
+				510A11961FECB8910091CFE1 /* QuickDownloaderTests */,
+				510A11821FECB8910091CFE1 /* Products */,
+				510A11B11FF0C8550091CFE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		510A11821FECB8910091CFE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				510A11811FECB8910091CFE1 /* QuickDownloader.app */,
+				510A11931FECB8910091CFE1 /* QuickDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		510A11831FECB8910091CFE1 /* QuickDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				518FDF641FF3D4A400455CA5 /* NSColor.swift */,
+				513BDB401FF4EA1700FFAFF2 /* Extensions.swift */,
+				510A11B41FF2441C0091CFE1 /* Aria2 */,
+				510A11841FECB8910091CFE1 /* AppDelegate.swift */,
+				510A11A41FECF3EF0091CFE1 /* StatusBarController.swift */,
+				511C50D21FFDDDC300BA25EB /* Settings */,
+				510A11B81FF3983C0091CFE1 /* UI */,
+				510A11881FECB8910091CFE1 /* Assets.xcassets */,
+				510A118A1FECB8910091CFE1 /* Main.storyboard */,
+				510A118D1FECB8910091CFE1 /* Info.plist */,
+				510A118E1FECB8910091CFE1 /* QuickDownloader.entitlements */,
+			);
+			path = QuickDownloader;
+			sourceTree = "<group>";
+		};
+		510A11961FECB8910091CFE1 /* QuickDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				510A11971FECB8910091CFE1 /* QuickDownloaderTests.swift */,
+				518FDF681FF4BF0E00455CA5 /* Aria2TaskTests.swift */,
+				510A11991FECB8910091CFE1 /* Info.plist */,
+			);
+			path = QuickDownloaderTests;
+			sourceTree = "<group>";
+		};
+		510A11B11FF0C8550091CFE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				519FE5E41FF5F6B4000A71B2 /* Automator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		510A11B41FF2441C0091CFE1 /* Aria2 */ = {
+			isa = PBXGroup;
+			children = (
+				510A11B51FF2442C0091CFE1 /* Aria2.swift */,
+				518FDF661FF48D4A00455CA5 /* Aria2Model.swift */,
+			);
+			path = Aria2;
+			sourceTree = "<group>";
+		};
+		510A11B81FF3983C0091CFE1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				510A11861FECB8910091CFE1 /* ViewController.swift */,
+				518FDF621FF3A53900455CA5 /* DownloadTaskCellView.swift */,
+				519FE5E61FF61563000A71B2 /* NewTaskViewController.swift */,
+				510A11B91FF398590091CFE1 /* WindowController.swift */,
+				510A11BB1FF39D370091CFE1 /* TitlebarAccessoryViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		511C50D21FFDDDC300BA25EB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				511C50D31FFDDDE400BA25EB /* Config.swift */,
+				511C50D51FFF2F1E00BA25EB /* Prdfterence.storyboard */,
+				511C50D71FFF593A00BA25EB /* GeneralSettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		510A11801FECB8910091CFE1 /* QuickDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510A119C1FECB8910091CFE1 /* Build configuration list for PBXNativeTarget "QuickDownloader" */;
+			buildPhases = (
+				510A117D1FECB8910091CFE1 /* Sources */,
+				510A117E1FECB8910091CFE1 /* Frameworks */,
+				510A117F1FECB8910091CFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickDownloader;
+			productName = QuickDownloader;
+			productReference = 510A11811FECB8910091CFE1 /* QuickDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		510A11921FECB8910091CFE1 /* QuickDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510A119F1FECB8910091CFE1 /* Build configuration list for PBXNativeTarget "QuickDownloaderTests" */;
+			buildPhases = (
+				510A118F1FECB8910091CFE1 /* Sources */,
+				510A11901FECB8910091CFE1 /* Frameworks */,
+				510A11911FECB8910091CFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510A11951FECB8910091CFE1 /* PBXTargetDependency */,
+			);
+			name = QuickDownloaderTests;
+			productName = QuickDownloaderTests;
+			productReference = 510A11931FECB8910091CFE1 /* QuickDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		510A11791FECB8910091CFE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zqqf16;
+				TargetAttributes = {
+					510A11801FECB8910091CFE1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					510A11921FECB8910091CFE1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 510A11801FECB8910091CFE1;
+					};
+				};
+			};
+			buildConfigurationList = 510A117C1FECB8910091CFE1 /* Build configuration list for PBXProject "QuickDownloader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 510A11781FECB8910091CFE1;
+			productRefGroup = 510A11821FECB8910091CFE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				510A11801FECB8910091CFE1 /* QuickDownloader */,
+				510A11921FECB8910091CFE1 /* QuickDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510A117F1FECB8910091CFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511C50D61FFF2F1E00BA25EB /* Prdfterence.storyboard in Resources */,
+				510A11891FECB8910091CFE1 /* Assets.xcassets in Resources */,
+				510A118C1FECB8910091CFE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510A11911FECB8910091CFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		510A117D1FECB8910091CFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518FDF651FF3D4A500455CA5 /* NSColor.swift in Sources */,
+				510A11871FECB8910091CFE1 /* ViewController.swift in Sources */,
+				511C50D41FFDDDE400BA25EB /* Config.swift in Sources */,
+				518FDF671FF48D4A00455CA5 /* Aria2Model.swift in Sources */,
+				519FE5E71FF61563000A71B2 /* NewTaskViewController.swift in Sources */,
+				510A11BA1FF398590091CFE1 /* WindowController.swift in Sources */,
+				510A11BC1FF39D370091CFE1 /* TitlebarAccessoryViewController.swift in Sources */,
+				513BDB411FF4EA1700FFAFF2 /* Extensions.swift in Sources */,
+				510A11B61FF2442C0091CFE1 /* Aria2.swift in Sources */,
+				511C50D91FFF593A00BA25EB /* GeneralSettingsViewController.swift in Sources */,
+				510A11A51FECF3EF0091CFE1 /* StatusBarController.swift in Sources */,
+				510A11851FECB8910091CFE1 /* AppDelegate.swift in Sources */,
+				518FDF631FF3A53900455CA5 /* DownloadTaskCellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510A118F1FECB8910091CFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518FDF691FF4BF0E00455CA5 /* Aria2TaskTests.swift in Sources */,
+				510A11981FECB8910091CFE1 /* QuickDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		510A11951FECB8910091CFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510A11801FECB8910091CFE1 /* QuickDownloader */;
+			targetProxy = 510A11941FECB8910091CFE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		510A118A1FECB8910091CFE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510A118B1FECB8910091CFE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		510A119A1FECB8910091CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		510A119B1FECB8910091CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		510A119D1FECB8910091CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BPL95996PK;
+				INFOPLIST_FILE = QuickDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zorro.QuickDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		510A119E1FECB8910091CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BPL95996PK;
+				INFOPLIST_FILE = QuickDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zorro.QuickDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		510A11A01FECB8910091CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BPL95996PK;
+				INFOPLIST_FILE = QuickDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zorro.QuickDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickDownloader.app/Contents/MacOS/QuickDownloader";
+			};
+			name = Debug;
+		};
+		510A11A11FECB8910091CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BPL95996PK;
+				INFOPLIST_FILE = QuickDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zorro.QuickDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickDownloader.app/Contents/MacOS/QuickDownloader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		510A117C1FECB8910091CFE1 /* Build configuration list for PBXProject "QuickDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510A119A1FECB8910091CFE1 /* Debug */,
+				510A119B1FECB8910091CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510A119C1FECB8910091CFE1 /* Build configuration list for PBXNativeTarget "QuickDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510A119D1FECB8910091CFE1 /* Debug */,
+				510A119E1FECB8910091CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510A119F1FECB8910091CFE1 /* Build configuration list for PBXNativeTarget "QuickDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510A11A01FECB8910091CFE1 /* Debug */,
+				510A11A11FECB8910091CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 510A11791FECB8910091CFE1 /* Project object */;
+}
